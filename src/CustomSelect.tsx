@@ -46,6 +46,7 @@ const CustomSelect = <T extends string>(
                     combobox.closeDropdown();
                 }}
                 disabled={props.disabled}
+                offset={{ crossAxis: 0 }}
             >
                 <Combobox.Target>
                     <InputBase
